@@ -133,7 +133,7 @@ const About = () => {
 
   return (
     <>
-    <section className='text-left'>
+    <section className='text-left overflow-x-hidden'>
       
       <div className='max-w-[1240px] mx-auto'>
         <div className='flex flex-col lg:flex-row py-16 justify-between items-center'>
