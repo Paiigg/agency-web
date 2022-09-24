@@ -8,3 +8,7 @@ body {
   width: auto;
   overflow-x: hidden;
 }
+
+a.active {
+  color: #1090cb;
+}

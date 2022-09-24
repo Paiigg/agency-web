@@ -1,6 +1,6 @@
 import React,{useState, useEffect} from 'react'
 import {BiMenu, BiX} from 'react-icons/bi'
-import { Link, useLocation } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 const Navbar = () => {
     const NavList = [
@@ -27,11 +27,12 @@ const Navbar = () => {
         
     ]
     const [nav, setNav] = useState(false)
+    
 
     const handleNav = () => {
         setNav(!nav);
     };
-
+   
 
   return (
     <header className='sticky top-0 w-full bg-white z-10'>
@@ -39,9 +40,10 @@ const Navbar = () => {
             <div className='flex justify-between items-center h-20 max-w-[1240px] mx-auto px-4'>
                 <Link to='/'  className='text-xl font-bold text-[#1090CB]'>LOGOIPSUM</Link>
                 <ul  className='hidden md:flex '>
+                    
                 {NavList.map((list,index)=> (
                     <li   className='p-4 hover:text-[#1090CB]'  key={index}>
-                        <Link to={list.link}>{list.tittle}</Link>
+                        <Link to={list.link} >{list.tittle}</Link>
                     </li>
                 ))}
                 </ul>
