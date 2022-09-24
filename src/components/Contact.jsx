@@ -28,7 +28,7 @@ const Contact = () => {
             <i className='bx bxs-phone text-2xl'></i>
             <p>+62 4444 5555 6</p>
           </div>
-          <div className='flex flex-col md:flex-row items-center  gap-3'>
+          <div className='flex flex-col md:flex-row items-center text-center lg:text-left gap-3'>
             <i className='bx bx-current-location text-2xl'></i>
             <p>but also the leap into electronic typesetting</p>
           </div>
