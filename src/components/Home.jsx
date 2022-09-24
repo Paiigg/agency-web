@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import HomeImage from '../img/Group 6.svg'
 import ActiImage from '../img/acti.svg'
 import Mockup from '../img/mockup.png'
@@ -69,7 +70,7 @@ const Home = () => {
             </div>
             
             <div className="flex gap-4 ">
-              <button className='bg-[#1090CB] py-2 px-4 rounded-lg w-[150px] hover:shadow-lg hover:bg-opacity-80 text-white xl:w-[190px]'>Contact Us</button>
+              <button className='bg-[#1090CB] py-2 px-4 rounded-lg w-[150px] hover:shadow-lg hover:bg-opacity-80 text-white xl:w-[190px]'><Link to='/contact'>Contact Us</Link></button>
               <button className='border-[#1090CB] border-2 text-[#1090CB] hover:shadow-lg bg-white py-2 px-4 rounded-lg w-[150px] xl:w-[190px]'>View More</button>
             </div>
 

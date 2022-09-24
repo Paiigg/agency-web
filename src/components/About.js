@@ -12,6 +12,7 @@ import ContentImage from '../img/content.svg'
 import Subscribe from './Subscribe'
 import Footer from './Footer'
 import Slider from "react-slick";
+import { Link } from 'react-router-dom'
 
 
 

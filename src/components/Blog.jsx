@@ -117,7 +117,7 @@ const Blog = () => {
 
 
   return (
-    <section>
+    <section className='overflow-x-hidden'>
       <div className='max-w-[1240px] mx-auto px-4'>
         <div className='flex flex-col gap-16 justify-center items-center py-20'>
           <div className='text-center flex flex-col justify-center items-center gap-10'>
